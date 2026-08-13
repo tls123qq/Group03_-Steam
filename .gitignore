@@ -4,6 +4,5 @@ __pycache__/
 .DS_Store
 
 # ไฟล์ดิบมีขนาดใหญ่มาก (steam_store_API.json ~420 MB) ไม่ควรใส่ git
-01_Raw_Data/*.json
 01_Raw_Data/*.csv
 02_ETL/cleaned/*.csv
