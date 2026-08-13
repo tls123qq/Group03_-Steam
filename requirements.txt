@@ -1,0 +1,18 @@
+# =====================================================================
+# requirements.txt — Group03 Steam Data Warehouse
+# ติดตั้งด้วย:  python -m pip install -r requirements.txt
+# =====================================================================
+
+# --- หลัก: ใช้ทุกขั้นของ ETL ---
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+
+# --- ขั้น Extract: ยิง Steam API ---
+requests>=2.31
+
+# --- ขั้น Dashboard ---
+streamlit>=1.30
+altair>=5.0
+
+# --- ขั้น Test ---
+pytest>=7.4

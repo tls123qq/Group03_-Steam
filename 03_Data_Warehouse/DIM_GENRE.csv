@@ -1,0 +1,24 @@
+﻿genre_key,genre_name,genre_avg_price,genre_avg_recommendation_rate,genre_avg_review_score
+1,Action,280.29,0.006731,5.878
+2,Adventure,261.15,0.00735,6.054
+3,Animation & Modeling,384.91,0.005806,4.897
+4,Audio Production,330.91,0.005282,5.0
+5,Casual,198.81,0.005393,5.975
+6,Design & Illustration,418.45,0.005056,5.514
+7,Early Access,235.35,0.005227,5.313
+8,Education,420.06,0.002963,4.577
+9,Free To Play,175.75,0.000541,1.296
+10,Game Development,504.28,0.005562,5.524
+11,Indie,208.92,0.006101,6.001
+12,Massively Multiplayer,243.38,0.005112,3.868
+13,Photo Editing,174.25,0.007608,5.1
+14,RPG,305.52,0.008457,5.96
+15,Racing,314.07,0.007583,5.87
+16,Simulation,297.39,0.008515,5.929
+17,Software Training,352.45,0.003947,6.067
+18,Sports,351.18,0.006937,5.846
+19,Strategy,286.82,0.006442,5.932
+20,Utilities,208.28,0.003771,5.082
+21,Video Production,436.56,0.003953,5.0
+22,Violent,,0.0,0.0
+23,Web Publishing,426.4,0.002418,5.143

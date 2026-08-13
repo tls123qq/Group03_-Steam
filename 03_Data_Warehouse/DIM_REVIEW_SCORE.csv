@@ -1,0 +1,11 @@
+﻿review_score_key,review_score,review_score_desc,sentiment_band
+1,0,No / Too Few Reviews,No / Too Few Reviews
+2,1,Overwhelmingly Negative,Negative
+3,2,Very Negative,Negative
+4,3,Negative,Negative
+5,4,Mostly Negative,Negative
+6,5,Mixed,Mixed
+7,6,Mostly Positive,Positive
+8,7,Positive,Positive
+9,8,Very Positive,Positive
+10,9,Overwhelmingly Positive,Positive

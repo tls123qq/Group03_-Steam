@@ -1,0 +1,96 @@
+﻿กลุ่ม,รายการตรวจสอบ,ผล,รายละเอียด
+Completeness,มีครบ 16 ตาราง,ผ่าน,
+Completeness,DIM_GAME มีข้อมูล,ผ่าน,"15,077 แถว"
+Completeness,DIM_DATE มีข้อมูล,ผ่าน,"1,752 แถว"
+Completeness,DIM_PLATFORM มีข้อมูล,ผ่าน,4 แถว
+Completeness,DIM_REVIEW_SCORE มีข้อมูล,ผ่าน,10 แถว
+Completeness,DIM_DEVELOPER มีข้อมูล,ผ่าน,"12,138 แถว"
+Completeness,DIM_PUBLISHER มีข้อมูล,ผ่าน,"9,462 แถว"
+Completeness,DIM_GENRE มีข้อมูล,ผ่าน,23 แถว
+Completeness,DIM_CATEGORY มีข้อมูล,ผ่าน,63 แถว
+Completeness,DIM_LANGUAGE มีข้อมูล,ผ่าน,103 แถว
+Completeness,FACT_GAME_ENGAGEMENT มีข้อมูล,ผ่าน,"15,077 แถว"
+Completeness,FACT_GAME_PLAYTIME มีข้อมูล,ผ่าน,"15,077 แถว"
+Completeness,BRIDGE_GAME_GENRES มีข้อมูล,ผ่าน,"45,096 แถว"
+Completeness,BRIDGE_GAME_CATEGORIES มีข้อมูล,ผ่าน,"80,234 แถว"
+Completeness,BRIDGE_GAME_DEVELOPERS มีข้อมูล,ผ่าน,"16,699 แถว"
+Completeness,BRIDGE_GAME_PUBLISHERS มีข้อมูล,ผ่าน,"16,125 แถว"
+Completeness,BRIDGE_GAME_LANGUAGES มีข้อมูล,ผ่าน,"98,680 แถว"
+PrimaryKey,DIM_GAME PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_GAME PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_DATE PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_DATE PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_PLATFORM PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_PLATFORM PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_REVIEW_SCORE PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_REVIEW_SCORE PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_DEVELOPER PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_DEVELOPER PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_PUBLISHER PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_PUBLISHER PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_GENRE PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_GENRE PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_CATEGORY PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_CATEGORY PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,DIM_LANGUAGE PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,DIM_LANGUAGE PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,FACT_GAME_ENGAGEMENT PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,FACT_GAME_ENGAGEMENT PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,FACT_GAME_PLAYTIME PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,FACT_GAME_PLAYTIME PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,BRIDGE_GAME_GENRES PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,BRIDGE_GAME_GENRES PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,BRIDGE_GAME_CATEGORIES PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,BRIDGE_GAME_CATEGORIES PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,BRIDGE_GAME_DEVELOPERS PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,BRIDGE_GAME_DEVELOPERS PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,BRIDGE_GAME_PUBLISHERS PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,BRIDGE_GAME_PUBLISHERS PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+PrimaryKey,BRIDGE_GAME_LANGUAGES PK ไม่ซ้ำ,ผ่าน,ซ้ำ 0 แถว
+PrimaryKey,BRIDGE_GAME_LANGUAGES PK ไม่ว่าง,ผ่าน,ว่าง 0 ค่า
+Referential,FACT_GAME_ENGAGEMENT.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_ENGAGEMENT.date_key -> DIM_DATE.date_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_ENGAGEMENT.platform_key -> DIM_PLATFORM.platform_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_ENGAGEMENT.review_score_key -> DIM_REVIEW_SCORE.review_score_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_ENGAGEMENT.primary_developer_key -> DIM_DEVELOPER.developer_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_ENGAGEMENT.primary_publisher_key -> DIM_PUBLISHER.publisher_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_PLAYTIME.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_PLAYTIME.date_key -> DIM_DATE.date_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_PLAYTIME.platform_key -> DIM_PLATFORM.platform_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_PLAYTIME.primary_genre_key -> DIM_GENRE.genre_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,FACT_GAME_PLAYTIME.primary_category_key -> DIM_CATEGORY.category_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_GENRES.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_GENRES.genre_key -> DIM_GENRE.genre_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_CATEGORIES.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_CATEGORIES.category_key -> DIM_CATEGORY.category_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_DEVELOPERS.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_DEVELOPERS.developer_key -> DIM_DEVELOPER.developer_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_PUBLISHERS.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_PUBLISHERS.publisher_key -> DIM_PUBLISHER.publisher_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_LANGUAGES.game_key -> DIM_GAME.game_key,ผ่าน,หาไม่เจอ 0 แถว
+Referential,BRIDGE_GAME_LANGUAGES.language_key -> DIM_LANGUAGE.language_key,ผ่าน,หาไม่เจอ 0 แถว
+Grain,FACT_GAME_ENGAGEMENT มี 1 แถวต่อ 1 เกม,ผ่าน,"15,077 แถว / เกม 15,077 เกม"
+Grain,FACT_GAME_PLAYTIME มี 1 แถวต่อ 1 เกม,ผ่าน,"15,077 แถว / เกม 15,077 เกม"
+Bridge,BRIDGE_GAME_GENRES allocation_factor รวมได้ 1.0,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_GENRES มี is_primary 1 ตัวต่อเกม,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_GENRES ไม่มีคู่ซ้ำ,ผ่าน,
+Bridge,BRIDGE_GAME_CATEGORIES allocation_factor รวมได้ 1.0,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_CATEGORIES มี is_primary 1 ตัวต่อเกม,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_CATEGORIES ไม่มีคู่ซ้ำ,ผ่าน,
+Bridge,BRIDGE_GAME_DEVELOPERS allocation_factor รวมได้ 1.0,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_DEVELOPERS มี is_primary 1 ตัวต่อเกม,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_DEVELOPERS ไม่มีคู่ซ้ำ,ผ่าน,
+Bridge,BRIDGE_GAME_PUBLISHERS allocation_factor รวมได้ 1.0,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_PUBLISHERS มี is_primary 1 ตัวต่อเกม,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_PUBLISHERS ไม่มีคู่ซ้ำ,ผ่าน,
+Bridge,BRIDGE_GAME_LANGUAGES allocation_factor รวมได้ 1.0,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_LANGUAGES มี is_primary 1 ตัวต่อเกม,ผ่าน,ผิด 0 เกม
+Bridge,BRIDGE_GAME_LANGUAGES ไม่มีคู่ซ้ำ,ผ่าน,
+BusinessRule,positive + negative = total_reviews,ผ่าน,
+BusinessRule,เกมฟรีต้องมี estimated_revenue = 0,ผ่าน,
+BusinessRule,owners มากกว่า 0 ทุกแถว,ผ่าน,
+BusinessRule,ccu ไม่เกิน owners,ผ่าน,
+BusinessRule,concurrent_engagement_rate อยู่ในช่วง 0-1,ผ่าน,
+BusinessRule,ไม่มี measure ติดลบ,ผ่าน,
+BusinessRule,content_depth_score ตรงกับ achievements + dlc*5,ผ่าน,
+BusinessRule,review_score อยู่ในช่วง 0-9,ผ่าน,

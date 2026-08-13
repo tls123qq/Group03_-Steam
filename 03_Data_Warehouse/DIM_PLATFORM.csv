@@ -1,0 +1,5 @@
+﻿platform_key,platform_windows,platform_mac,platform_linux,platform_desc,platform_count
+1,1,0,0,Windows,1
+2,1,0,1,Windows + Linux,2
+3,1,1,0,Windows + Mac,2
+4,1,1,1,Windows + Mac + Linux,3
