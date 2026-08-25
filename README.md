@@ -38,7 +38,11 @@ Group03_โครงการวิเคราะห์แนวโน้มต
 ## วิธีรันทั้งระบบ (รันจาก Project Root ทุกคำสั่ง)
 
 ```bash
-# 0) ติดตั้ง dependency
+# 0) ติดตั้งเครื่องมือและ dependency
+# เนื่องจากโปรเจกต์นี้ใช้ Git LFS เก็บไฟล์ JSON ขนาดใหญ่ (~420 MB) 
+# ต้องติดตั้ง Git LFS (https://git-lfs.com/) และดึงไฟล์ก่อนรัน:
+# git lfs install
+# git lfs pull
 python -m pip install -r requirements.txt
 
 # 1) EXTRACT — ดึงข้อมูลจาก Steam API ทั้ง 2 แหล่ง
