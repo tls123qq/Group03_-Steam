@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:72fb0d5ba788058495eec1e6977a6475f702b240aebe24bfc59f7eebd9e9f4f7
-size 1588
+{
+  "store_00_rows_raw": 23063,
+  "store_01_duplicates_removed": 0,
+  "store_02_free_games_kept": 4571,
+  "store_02_paid_without_price_dropped": 1133,
+  "store_03_rows_dropped_missing": 864,
+  "store_04_currencies": {
+    "THB": 16672,
+    "FREE": 4394
+  },
+  "store_05_rows_dropped_negative": 0,
+  "store_06_rows_final": 21066,
+  "review_00_rows_raw": 23063,
+  "review_01_duplicates_removed": 0,
+  "review_02_sum_mismatch": 0,
+  "review_02_bad_score": 0,
+  "review_02_rows_dropped_negative": 0,
+  "review_03_rows_final": 23063,
+  "spy_00_rows_raw": 86543,
+  "spy_01_cols_dropped": [
+    "Unnamed: 0",
+    "name",
+    "developer",
+    "publisher",
+    "score_rank",
+    "positive",
+    "negative",
+    "userscore",
+    "price",
+    "initialprice",
+    "discount"
+  ],
+  "spy_02_duplicates_removed": 3652,
+  "spy_03_rows_dropped_missing": 0,
+  "spy_04_rows_dropped_nonnumeric": 0,
+  "spy_04_rows_dropped_negative": 0,
+  "spy_05_rows_dropped_bad_owners": 0,
+  "spy_05_owners_distinct": 13,
+  "spy_06_rows_final": 82891,
+  "join_rows": 15077,
+  "dw_tables": {
+    "DIM_GAME": 15077,
+    "DIM_DATE": 1752,
+    "DIM_PLATFORM": 4,
+    "DIM_REVIEW_SCORE": 10,
+    "DIM_DEVELOPER": 12138,
+    "DIM_PUBLISHER": 9462,
+    "DIM_GENRE": 23,
+    "DIM_CATEGORY": 63,
+    "DIM_LANGUAGE": 103,
+    "FACT_GAME_ENGAGEMENT": 15077,
+    "FACT_GAME_PLAYTIME": 15077,
+    "BRIDGE_GAME_GENRES": 45096,
+    "BRIDGE_GAME_CATEGORIES": 80234,
+    "BRIDGE_GAME_DEVELOPERS": 16699,
+    "BRIDGE_GAME_PUBLISHERS": 16125,
+    "BRIDGE_GAME_LANGUAGES": 98680
+  }
+}

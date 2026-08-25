@@ -1,3 +1,289 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9e51a837a512bf0fa59a41cecaf9e66078966bd0d4a472d60b2ed94689f7f0d
-size 7715
+{
+  "store": {
+    "rows": 23063,
+    "duplicates": 0,
+    "types": {
+      "game": 19040,
+      "dlc": 3554,
+      "music": 432,
+      "mod": 30,
+      "demo": 7
+    },
+    "free_games": 4571,
+    "no_price_overview": 5701,
+    "free_without_price": 4568,
+    "currencies": {
+      "THB": 17362
+    },
+    "missing_required": {
+      "categories": 403,
+      "genres": 373,
+      "supported_languages": 371,
+      "publishers": 445,
+      "developers": 27,
+      "name": 1
+    }
+  },
+  "review": {
+    "rows": 23063,
+    "duplicates": 0,
+    "sum_mismatch": 0,
+    "zero_variance": [
+      "num_reviews"
+    ]
+  },
+  "steamspy": {
+    "rows": 86543,
+    "columns": 18,
+    "zero_variance": []
+  },
+  "joinable_keys": 15807,
+  "findings": [
+    {
+      "source": "store",
+      "issue": "Duplicate",
+      "detail": "steam_appid ซ้ำ",
+      "count": 0
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "คอลัมน์ categories ว่าง",
+      "count": 403
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "คอลัมน์ genres ว่าง",
+      "count": 373
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "คอลัมน์ supported_languages ว่าง",
+      "count": 371
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "คอลัมน์ publishers ว่าง",
+      "count": 445
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "คอลัมน์ developers ว่าง",
+      "count": 27
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "คอลัมน์ name ว่าง",
+      "count": 1
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "ไม่มี price_overview",
+      "count": 5701
+    },
+    {
+      "source": "store",
+      "issue": "Missing",
+      "detail": "เกมฟรีที่ไม่มี price_overview (ปกติ ห้ามลบ)",
+      "count": 4568
+    },
+    {
+      "source": "store",
+      "issue": "Date",
+      "detail": "release_date เป็น dict ต้องแตกออกก่อน",
+      "count": 23063
+    },
+    {
+      "source": "store",
+      "issue": "Date",
+      "detail": "วันที่แปลงไม่ได้ เช่น Coming Soon",
+      "count": 0
+    },
+    {
+      "source": "store",
+      "issue": "Format",
+      "detail": "supported_languages มี HTML ปน",
+      "count": 11342
+    },
+    {
+      "source": "store",
+      "issue": "Unit",
+      "detail": "ราคาเป็นหน่วยสตางค์ ต้องหาร 100",
+      "count": 17362
+    },
+    {
+      "source": "store",
+      "issue": "Nested",
+      "detail": "คอลัมน์ platforms เป็น dict ซ้อน",
+      "count": 23063
+    },
+    {
+      "source": "store",
+      "issue": "Nested",
+      "detail": "คอลัมน์ achievements เป็น dict ซ้อน",
+      "count": 12478
+    },
+    {
+      "source": "store",
+      "issue": "Nested",
+      "detail": "คอลัมน์ recommendations เป็น dict ซ้อน",
+      "count": 7294
+    },
+    {
+      "source": "store",
+      "issue": "Nested",
+      "detail": "คอลัมน์ price_overview เป็น dict ซ้อน",
+      "count": 17362
+    },
+    {
+      "source": "review",
+      "issue": "Schema",
+      "detail": "รูปแบบคีย์ที่ต่างกันระหว่างแถว",
+      "count": 1
+    },
+    {
+      "source": "review",
+      "issue": "Duplicate",
+      "detail": "steam_appid ซ้ำ",
+      "count": 0
+    },
+    {
+      "source": "review",
+      "issue": "Missing",
+      "detail": "ค่าว่างทั้งไฟล์",
+      "count": 0
+    },
+    {
+      "source": "review",
+      "issue": "Invalid",
+      "detail": "positive + negative != total",
+      "count": 0
+    },
+    {
+      "source": "review",
+      "issue": "Invalid",
+      "detail": "review_score นอกช่วง 0-9",
+      "count": 0
+    },
+    {
+      "source": "review",
+      "issue": "Invalid",
+      "detail": "ค่าติดลบ",
+      "count": 0
+    },
+    {
+      "source": "review",
+      "issue": "ZeroVariance",
+      "detail": "คอลัมน์ที่มีค่าเดียวทั้งไฟล์ ['num_reviews']",
+      "count": 1
+    },
+    {
+      "source": "steamspy",
+      "issue": "Format",
+      "detail": "คอลัมน์ index ติดมาจากการ export ['Unnamed: 0']",
+      "count": 1
+    },
+    {
+      "source": "steamspy",
+      "issue": "Duplicate",
+      "detail": "appid ซ้ำ",
+      "count": 3652
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ name ว่าง",
+      "count": 14
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ developer ว่าง",
+      "count": 302
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ publisher ว่าง",
+      "count": 567
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ score_rank ว่าง",
+      "count": 86495
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ price ว่าง",
+      "count": 28
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ initialprice ว่าง",
+      "count": 21
+    },
+    {
+      "source": "steamspy",
+      "issue": "Missing",
+      "detail": "คอลัมน์ discount ว่าง",
+      "count": 21
+    },
+    {
+      "source": "steamspy",
+      "issue": "Unit",
+      "detail": "owners เป็นข้อความช่วง ต้องแปลงเป็นตัวเลข",
+      "count": 86543
+    },
+    {
+      "source": "steamspy",
+      "issue": "Invalid",
+      "detail": "ค่าที่แปลงเป็นตัวเลขไม่ได้",
+      "count": 0
+    },
+    {
+      "source": "steamspy",
+      "issue": "Invalid",
+      "detail": "ค่าติดลบในคอลัมน์ที่ไม่ควรติดลบ",
+      "count": 0
+    },
+    {
+      "source": "steamspy",
+      "issue": "ZeroVariance",
+      "detail": "คอลัมน์ที่มีค่าเดียวทั้งไฟล์ []",
+      "count": 0
+    },
+    {
+      "source": "all",
+      "issue": "MismatchedKeys",
+      "detail": "คีย์คนละชื่อ (steam_appid vs appid) ต้อง rename ก่อน join",
+      "count": 1
+    },
+    {
+      "source": "all",
+      "issue": "MismatchedKeys",
+      "detail": "มีใน store (steam_appid) แต่ไม่ครบแหล่งอื่น",
+      "count": 7256
+    },
+    {
+      "source": "all",
+      "issue": "MismatchedKeys",
+      "detail": "มีใน review (steam_appid) แต่ไม่ครบแหล่งอื่น",
+      "count": 7256
+    },
+    {
+      "source": "all",
+      "issue": "MismatchedKeys",
+      "detail": "มีใน steamspy (appid) แต่ไม่ครบแหล่งอื่น",
+      "count": 67084
+    }
+  ]
+}
