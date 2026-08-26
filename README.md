@@ -55,7 +55,7 @@ python -m pip install -r requirements.txt
 #    ใช้เวลานานมาก (~10 ชม. สำหรับ 23,000 เกม เพราะหน่วง 1.5 วิ/เกม)
 #    มีระบบ checkpoint ถ้าหลุดกลางทางรันซ้ำได้เลย จะดึงต่อจากเดิม
 python 02_ETL/01_fetch_api_data.py
-python 02_ETL/01_fetch_api_data.py --limit 100      # ทดลองแค่ 100 เกม
+python 02_ETL/01_fetch_api_data.py --limit 50      # ทดลองแค่ 50 เกม
 python 02_ETL/01_fetch_api_data.py --source review  # ดึงเฉพาะรีวิว
 
 # 2) PROFILE — ตรวจปัญหาคุณภาพข้อมูลก่อน clean
