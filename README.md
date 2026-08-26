@@ -39,14 +39,14 @@ Group03_โครงการวิเคราะห์แนวโน้มต
 
 ```bash
 # 0) สร้าง Virtual Environment และติดตั้ง dependency
-# สร้าง venv (ทำแค่ครั้งแรก)
-python -m venv venv
+# สร้าง .venv (ทำแค่ครั้งแรก)
+py -m venv .venv
 
 # เปิดใช้งาน venv (ต้องทำทุกครั้งก่อนรันสคริปต์)
 # สำหรับ Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 # สำหรับ macOS/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 
 # ติดตั้ง dependency
 python -m pip install -r requirements.txt
