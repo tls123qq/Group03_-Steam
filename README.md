@@ -38,7 +38,17 @@ Group03_โครงการวิเคราะห์แนวโน้มต
 ## วิธีรันทั้งระบบ (รันจาก Project Root ทุกคำสั่ง)
 
 ```bash
-# 0) ติดตั้ง dependency
+# 0) สร้าง Virtual Environment และติดตั้ง dependency
+# สร้าง venv (ทำแค่ครั้งแรก)
+python -m venv venv
+
+# เปิดใช้งาน venv (ต้องทำทุกครั้งก่อนรันสคริปต์)
+# สำหรับ Windows:
+venv\Scripts\activate
+# สำหรับ macOS/Linux:
+source venv/bin/activate
+
+# ติดตั้ง dependency
 python -m pip install -r requirements.txt
 
 # 1) EXTRACT — ดึงข้อมูลจาก Steam API ทั้ง 2 แหล่ง
